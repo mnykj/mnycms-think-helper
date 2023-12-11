@@ -1,0 +1,25 @@
+{
+    "name": "mnycms/mnycms-think-helper",
+    "description": "The ThinkPHP5 Helper Package",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "八级天",
+            "email": "211983651@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://www.mnykj.com"
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
